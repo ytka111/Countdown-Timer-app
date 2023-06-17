@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fraunces:opsz,wght@9..144,700&family=Karla&family=Kumbh+Sans:wght@300&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.App {
+  width: 800px;
+}
+
+.timer {
+  display: flex;
+  padding: 15px;
+  background: linear-gradient(rgb(48, 154, 253), rgb(127, 215, 253));
+  border-radius: 15px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer button {
+  width: 30px;
+  height: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px 8px;
+  background-color: rgb(77, 99, 196);
+  cursor: pointer;
+}
+
+.timer__content h1 {
+  font-size: 30px;
+}
+
+.timer__content span {
+  font-size: 14px;
+  margin: 0 5px 0 1px;
+}
+
+.timer__time {
+  font-size: 40px;
+  margin: 10px 0 0 0;
+}
+
+.timer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer__content .time-input {
+  width: 18px;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+}
+
+.timer__content .name-input {
+  width: 100px;
+  height: 25px;
+  border: 2px solid rgb(77, 99, 196);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 15px 0 0;
+}
+
+.form {
+  display: flex;
+  height: 50px;
+  margin: 30px 50px 20px 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(127, 215, 253);
+  border-radius: 5px;
+}
+
+.form input {
+  width: 18px;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+}
+
+.form .name-input {
+  width: 150px;
+  height: 25px;
+  border: 2px solid rgb(77, 99, 196);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 15px 0 0;
+}
+
+.form button {
+  width: 75px;
+  height: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px 8px;
+  background-color: rgb(77, 99, 196);
+  cursor: pointer;
+}
+
+.form span {
+  font-size: 14px;
+  margin: 0 5px 0 1px;
+}
